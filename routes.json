@@ -1,0 +1,4 @@
+{
+  "/todos/:todoId/comments": "/comments?todoId=:todoId",
+  "/todos/:todoId/comments/:id": "/comments?todoId=:todoId&id=:id"
+}
