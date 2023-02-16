@@ -25,7 +25,7 @@ Mock server for technical examination.
 | PATCH | /todos/:id | ```{ updatedAt, status }``` | status: (true, false) |
 | DELETE | /todos/:id | | |
 | GET | /todos/:todoId/comments | | |
-| POST | /todos/:todoId/comments/:id | ```{ comment, createdAt, updatedAt }``` |  |
+| POST | /todos/:todoId/comments | ```{ comment, createdAt, updatedAt }``` |  |
 | PUT | /todos/:todoId/comments/:id | ```{ comment, updatedAt }``` | | 
 | DELETE | /todos/:todoId/comments/:id  | | |
 
